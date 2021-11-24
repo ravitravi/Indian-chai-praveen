@@ -1,0 +1,81 @@
+body{
+    background-image: url(loginimage/fire.jpeg);
+
+}
+.bi{
+    background-color:red;
+    width: 30%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 320px;
+   
+}
+.email{
+    width: 30%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 320px;
+    color:white;
+   
+}
+.topic{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    padding-top:15px;
+}
+.topic img{
+    width:90px;
+    height:80px;
+    margin-top:80px;
+}
+.subtopic{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: -15px;
+    margin-top: -15px;
+    font-family: cursive;
+    
+}
+.descrip{
+    color:white;
+    margin: 15px;
+    text-align: center;
+    font-size: 20PX;
+
+}
+.extraoff{
+    text-align: center;
+    color:white;
+}
+.mobilenumber{
+    color:white;
+    padding: 5px;
+    background:transparent ;
+    border-radius:5px;
+    margin-left: 75px;
+    padding-right:25px;
+    color:white;   
+}
+.click a{
+    text-decoration: none;
+      
+}
+
+.bt1{
+    margin: 5px;
+    margin-left: 75px;
+    margin-top:25px;
+    background-color:green;
+    border:green;
+    border-radius:3px;
+    
+    padding:8px 25px 8px 25px;
+    color:white;
+}
+.bt2{
+    background-color: rgb(206, 90, 138);
+    border: pink;
+}

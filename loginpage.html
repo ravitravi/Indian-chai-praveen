@@ -1,0 +1,34 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="login-style.css">
+    <script>
+        function pressnumber(){
+         var mno=document.getElementById("num").value;
+         
+         if(mno.length==10){
+            window.location.assign( "teawebsite.html");
+            alert("Thanks enjoy shopping,Geting extra 5% off.")
+         }
+         else{
+          
+          alert("enter correct number");
+         }
+        }
+     </script>
+     </head>
+    <body>
+        <div class="email">
+        <p class="topic">DIWALI SALE <img src="images/logo12.png" ></p>
+        <div class="subtopic">Get extra<b> 5% off</b></div>
+        <div class="descrip">sign up now to get an additional 5% off on CUP OF CHAI </div>
+            <p class="extraoff"><b>(upto 50% off +Extra 5% off)    </b></p>
+           
+            <input  placeholder="Mobile Number" class="mobilenumber" id="num" ><br>
+           <div class="click"> 
+              <button class="bt1" onclick="pressnumber()">AVAIL EXTRA 5% OFF</button>
+              <button class="bt2"><a href="teawebsite.html" style="color:white">skip</a></button>
+           </div>
+           </div> 
+       
+    </body>
+</html>
